@@ -1,0 +1,676 @@
+html {
+    color: #5f5d5d;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 10px 8.3%;
+    font-family: Arial, sans-serif;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 38px;
+  text-align: center;
+  color: #666;
+  font-weight: lighter;
+}
+
+h1 span {
+  color: #008ccb;
+  font-weight: 700;
+}
+
+.header p {
+  margin-top: -30px;
+  text-align: center;
+  color: #666;
+  font-weight:lighter;
+}
+
+.user-btn {
+  padding: 5px 10px;
+  background: linear-gradient(to bottom, #a5d719 0%,#46aa00 100%);
+  border: 1px solid #5b9017;
+  border-radius: 5px;
+}
+.user-btn:active {
+  background: linear-gradient(to bottom, #46aa00 0%,#a5d719 100%);}
+
+.user-btn a {
+  color: white;
+}
+
+.login {
+  float: right;
+}
+.signup {
+  float: left;
+}
+
+.menu {
+  margin: 30px;
+}
+
+.menu li {
+  text-align: center;
+  margin: 15px 15px 15px -15px;
+}
+
+.menu a { 
+  color: #959393;
+}
+
+.main h2 {
+  color: #035f88;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.main p {
+  text-align: center;
+}
+
+.feature {
+  white-space: nowrap;
+  margin: 30px auto;
+  max-width: 125px;
+}
+
+.subscribe {
+  background: #d9eef7;
+}
+
+form{
+    min-height: 50px;
+    margin: 0;
+    padding: 20px;
+  }
+
+.subscribe h3{
+  font-size: 18px;
+    line-height: 14px;
+  text-align: center;
+}
+
+input[type=email] {
+  float: left;
+  border: none;
+  padding: 6px 55px 6px 17px;
+  margin: 10px auto;
+}
+
+input[type=submit] {
+  float: right;
+  color: #9fa19f;
+  margin: 10px auto;
+  padding: 5px 25px;
+  border: 1px solid #b1c0cb;
+  background: linear-gradient(to bottom, #fff 0%,#d8e1e6 100%);
+}
+
+.col-3 h3 {
+  color: #035f88;
+  text-align: center;
+  margin: 30px;
+}
+
+.col-3 a {
+  white-space: nowrap;
+  color: #5e9440;
+  text-align: center;
+  margin: 0 30%;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.col-1 h3 {
+  color: #035f88;
+  text-align: center;
+  margin: 20px;
+}
+
+.btn-article a {
+    color: #222;
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn-article {
+  margin: 20px auto;
+  width: 71px;
+  padding: 5px 15px;
+  border: 1px solid #b2b2b2;
+  background: linear-gradient(to bottom, #ededed 0%,#cecece 100%);
+  border-radius: 4px;
+  }
+
+.btn-article:active {
+  background: linear-gradient(to bottom, #cecece 0%,#ededed 100%);
+}
+
+.slider {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.btn-left{
+  opacity: .7;
+  position: absolute;
+  bottom:42%;
+  left:-10px;
+  height: 30px;
+  width: 30px;
+  background: url('../img/btn_left.png') no-repeat;
+}
+
+.btn-right{
+  opacity: .7;
+  position: absolute;
+  bottom:42%;
+  right:-10px;
+  height: 30px;
+  width: 30px;
+  background: url('../img/btn_right.png') no-repeat;
+}
+
+.btn-right:active,
+.btn-left:active {
+  opacity: 1;
+}
+
+.foot-nav li {
+  text-align: center;
+  margin: 15px 15px 15px -15px;
+}
+
+.foot-nav a { 
+  color: #959393;
+}
+.footer p {
+  font-size: 14px;
+}
+.footer {
+  background: url("../img/footer_back.png") no-repeat 85% -50%;
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+
+
+@media only screen and (min-width: 1000px) {
+    
+    .body,
+    .html {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo {
+        float: left;
+    }
+    
+    h1 {
+      float: left;
+    }
+    
+    .signup {
+      float: right;
+      margin-left: 20px;
+    }
+    
+    .header,
+    .main,
+    .footer,
+    hr{
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    .header{
+      position: relative;
+    }
+    
+    .menu{
+      position: absolute;
+      bottom: 1px;
+      right: 1px;
+      margin: 10px 0 15px;
+    }
+    
+    .menu a:hover {
+      color: #036e9e;
+    } 
+    
+    .menu li {
+      margin: 0;
+      display: inline-block;
+      margin-left: 30px;
+      font-size: 14px;
+    }
+    
+    .main-col {
+      position: relative;
+    }
+    
+    .main h2 {
+      text-align: left;
+    }
+    
+    .main p {
+      text-align: left;
+      max-width: 395px;
+    }
+        
+    .main img {
+      position: absolute;
+      top: 35px;
+      right: 1px;
+    }
+    
+    .feature {
+      float: left;
+      margin: 10px 40px 100px;
+      max-width: 230px
+    }
+    
+    .feature a {
+      font-size: 28px;
+      font-weight: 600;
+    }
+    
+    .subscribe {
+      margin-top: 60px;
+      padding: 0 15px;
+    }
+    .subscribe form {
+      padding: 10px;
+    }
+    
+    .subscribe h3 {
+      float:left;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 30px 40px 0 0;
+    }
+    
+    input[type=email] {
+      float:left;
+    }
+    
+    .col-1 h3,
+    .col-1 p,
+    .col-3 h3,
+    .col-3 p,
+    .col-3 a {
+      text-align: left;
+      margin: 0;
+    }
+    
+    .article {
+      float:left;
+      max-width: 320px;
+      min-height: 40px;
+      margin-right: 20px;
+      margin-top:60px;
+    }
+    
+    .art-3 {
+      margin-right: 0;
+    }
+    
+    .article p {
+      margin: 30px 0;
+    }
+    
+    .art-1 h3 {
+      position: relative;
+      padding-bottom: 20px;
+      padding-left: 70px;
+    }
+    
+    .art-1 h3:before {
+      position: absolute;
+      top: -10px;
+      left: -5px;
+      content: url('../img/folder.png');
+      width: 64px;
+      height: 46px;
+    }
+    .art-2 h3 {
+      position: relative;
+      padding-bottom: 20px;
+      padding-left: 70px;
+    }
+    
+    .art-2 h3:before {
+      position: absolute;
+      top: -10px;
+      left: -5px;
+      content: url('../img/bubble.png');
+      width: 64px;
+      height: 46px;
+    }    
+    .art-3 h3 {
+      position: relative;
+      padding-bottom: 20px;
+      padding-left: 70px;
+    }
+    
+    .art-3 h3:before {
+      position: absolute;
+      top: -10px;
+      left: -5px;
+      content: url('../img/screen.png');
+      width: 64px;
+      height: 46px;
+    }
+    
+    .col-1 {
+      position: relative;
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
+    
+    .slider {
+      position: absolute;
+      top: -24px;
+      right: 4px;
+      height: 300px;
+    }
+    
+    .col-1 p {
+      margin: 20px 0 0;
+      max-width: 600px;
+    
+    }
+    .btn-article {
+      float:left;
+    }
+    
+    .btn-left,
+    .btn-right {
+      bottom:50%;
+    }
+
+    .footer {
+      position: relative;
+      background: url('../img/footer_back.png') no-repeat  100% -95%;
+      background-size: 1000px 200px;
+      min-height: 200px;
+    }
+    
+    .foot-nav a:hover {
+      color: #036e9e;
+    }
+    
+    .foot-nav li {
+      display: inline-block;
+      font-size: 12px;
+    }
+    
+    .foot-nav li:after {
+        margin: 0 10px;
+        content:'|';
+    }
+    
+    .foot-nav {
+      position: absolute;
+      bottom: -31px;
+      right: 130px;
+    }
+    
+    .footer p {
+      position: absolute;
+      font-size: 12px;
+      bottom: -15px;
+      left: 130px;
+    }
+    
+@media only screen and (max-width: 1230px) {
+        .article {
+        max-width: 230px;
+        margin-left: 20px;
+        }
+    }
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
